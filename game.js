@@ -12,7 +12,7 @@ window.addEventListener("resize", resizeCanvas);
 
 /* ---------- CONFIG ---------- */
 
-const GAME_URL = {"https://poppeyya.github.io/BILLIONS_JUMPER/"};
+const GAME_URL = "PASTE_YOUR_GAME_LINK_HERE";
 
 /* ---------- IMAGES ---------- */
 
@@ -346,6 +346,4 @@ window.addEventListener("touchstart", e => {
   if (gameRunning) player.jump();
 }, { passive: false });
 
-
 renderLeaders();
-
